@@ -17,7 +17,6 @@ form.onsubmit = function (e) {
   var xhr = new XMLHttpRequest();
   xhr.open(form.method, form.action, true);
   xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
-  xhr.setRequestHeader('Authorization', data['g-recaptcha-response'])
 
   // send the collected data as JSON
   xhr.send(JSON.stringify(data));
