@@ -34,7 +34,7 @@ form.onsubmit = function (e) {
 };
 
 function enableBtn(){
-let btnSignUp = document.getElementById("btnSignUp");
+var btnSignUp = document.getElementById("btnSignUp");
     
     btnSignUp.disabled = false;
     btnSignUp.style.color="white";
