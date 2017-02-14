@@ -1,4 +1,6 @@
 var form = document.getElementById("signupform");
+var thankyou = document.getElementById('thankyou');
+var toprow = document.getElementById('toprow');
 
 form.onsubmit = function (e) {
   // stop the regular form submission
@@ -12,6 +14,7 @@ form.onsubmit = function (e) {
       data[input.name] = input.value;
     }
   }
+  
 
   // construct an HTTP request
   var xhr = new XMLHttpRequest();
@@ -23,6 +26,18 @@ form.onsubmit = function (e) {
   xhr.send(JSON.stringify(data));
 
   xhr.onloadend = function () {
-    alert("Email Address Submitted");// done
+  //  alert("Email Address Submitted");// done
+    form.style.display = "none";
+    toprow.style.display = "none";
+    thankyou.style.display = "block";
   };
 };
+
+function enableBtn(){
+let btnSignUp = document.getElementById("btnSignUp");
+    
+    btnSignUp.disabled = false;
+    btnSignUp.style.color="white";
+    btnSignUp.style.background="#1e7f58";
+    
+   }
