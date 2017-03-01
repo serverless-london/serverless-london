@@ -20,4 +20,9 @@ gulp.task('minify', function() {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('build',['minify','compress']);
+gulp.task('copy', function(){
+  return gulp.src('src/_redirects')
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('build',['minify','compress','copy']);
