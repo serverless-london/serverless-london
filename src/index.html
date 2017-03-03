@@ -11,9 +11,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="https://res.cloudinary.com/senzo/image/upload/c_scale,w_32/v1487005006/ico_bp86ig.ico">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">  
+  
+  <style>
+    .grad { 
+      background-color: #1e7f58; /* fallback color if gradients are not supported */
+      background-image: -webkit-linear-gradient(left,#ccffcc, #1e7f58); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+      background-image:    -moz-linear-gradient(left,#ccffcc, #1e7f58); /* For Firefox (3.6 to 15) */
+      background-image:      -o-linear-gradient(left, #ccffcc, #1e7f58); /* For old Opera (11.1 to 12.0) */ 
+      background-image:         linear-gradient(to right,#ccffcc, #1e7f58); /* Standard syntax; must be last */
+    }
+  </style>
+  
   </head>
   
-  <body class="avenir bg-green">  
+  <body class="avenir grad cover">  
     <article class="dt vh-75 w-100">
       <div class="dtc w-100 v-mid cf" id="home">
         <div class="fl w-100 w-75-l">
@@ -21,9 +32,9 @@
             <img class="center" src="https://res.cloudinary.com/senzo/image/upload/c_scale,h_480/v1486988424/SERVERLESS_NO_BACKGROUND_opzcgz.png" alt="Serverless London">
           </div>
           <div class="pt4-l pt3-m tl-l tc v-mid w-100">
-            <h1 class="f2 f1-l fw6 white lh-title">Serverless London User Group</h1>
-            <h2 class="fw4 f3 white">Join the Serverless Revolution today!</h2>
-            <div class="f5 white avenir ml2-l fw4 lh-copy ph3">
+            <h1 class="f2 f1-l fw6 dark-gray lh-title">Serverless London User Group</h1>
+            <h2 class="fw4 f3 dark-gray">Join the Serverless Revolution today!</h2>
+            <div class="f5 dark-gray avenir ml2-l fw4 lh-copy ph3">
               <span>The next evolution in cloud computing is the abstraction away from servers, through Function as a Service (FaaS) platforms.</span>
               <p>
               <span>The Serverless London User Group meets on the first Wednesday of every month to discuss and share our experience using FaaS platforms like AWS Lambda, Azure Functions, IBM OpenWhisk, and Google Cloud Functions.</span>
