@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://serverless.london/</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup</loc>
+</url>
+<url>
+  <loc>https://serverless.london/slack.html</loc>
+</url>
+<url>
+  <loc>https://serverless.london/codeofconduct.html</loc>
+</url>
+<url>
+  <loc>https://serverless.london/index.html</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup/feb2017</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup/mar2017</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup/feb2017/serverless-framework-multi-provider-support</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup/feb2017/lambda-deploys-with-apex</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup/feb2017/serverless-for-the-enterprise</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup/mar2017/serverless-for-interoperability</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup/mar2017/serverless-ops-not-solved</loc>
+</url>
+<url>
+  <loc>https://serverless.london/meetup/mar2017/lambda-and-azure-serverless</loc>
+</url>
+</urlset>
