@@ -21,7 +21,7 @@ gulp.task('minify', function() {
 });
 
 gulp.task('copy', function(){
-  return gulp.src('src/_redirects')
+  return gulp.src(['src/_redirects','src/*.xml'])
     .pipe(gulp.dest('dist'));
 });
 
